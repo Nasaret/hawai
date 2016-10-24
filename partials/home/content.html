@@ -1,6 +1,7 @@
+<div class="home_body">
 <!-- Jumbotron -->
     <div class="jumbotron">
-      <img class="background" src="../../img/surf.jpg" alt="surfeur sur un requin">
+      <img class="background" src="img/surf.jpg" alt="surfeur sur un requin">
       <div class="surf_blabla text-center">
         <h1>HAWAIIIIII</h1>
             <p class="lead">Le surf c'est vachement bien!!!! On peut nourrir les requins!! =D</p>
@@ -11,9 +12,9 @@
       <!-- Example row of columns -->
       <div ng-controller="homeController" class="row opacity">
         <div ng-repeat="block in blocks" class="col-lg-4">
-          <h2 class="blabla1">{{block.titre}}</h2>
-          <p class="blabla1">{{block.texte}}</p>
-          <p><a class="btn btn-primary center-block btn_home" href="#" role="button">{{block.bouton}}</a></p>
+          <h2 class="blabla1">{{dataBlock.titre}}</h2>
+          <p class="blabla1">{{dataBlock.texte}}</p>
+          <p><a class="btn btn-primary center-block btn_home" href="#" role="button">{{dataBlock.bouton}}</a></p>
         </div>
         <!-- 
         <div class="col-lg-4">
@@ -27,7 +28,8 @@
           <p class="blabla1">La plupart des spots les plus célèbres ont leur petit nom presque toujours indiqués sur une carte. Le plus simple est demander autour de vous où trouver les spots qui correspondront le mieux à vos capacités à un moment donné de l'année. Parmi les spots célèbres sur Oahu on trouve Velzyland, Backyards, Gas Chambers, Backdoor, Pupukea, Log Cabins, Leftovers, Chun's Reef, Laniakea, Silver Channel, Avalanche, Kaena Points et Walls.
           <p><a class="btn btn-primary center-block btn_home" href="#" role="button">View details &raquo;</a></p>
         </div>
-
-        
-        -->
+-->
       </div>
+
+      </div>
+    </div>
