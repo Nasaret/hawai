@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="CarStore">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CarStore</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" title="no title">
+</head>
+
+
+
+<body ng-controller="produitController as store">
+
+  <div class="container" id="tourpackages-carousel">
+
+    <div class="row">
+
+      <div class="col-xs-18 col-sm-6 col-md-3" ng-repeat=" surf in store.produit">
+        <div class="thumbnail">
+          <img src="{{surf.photoProduit}} alt=""/>
+          <div class="caption">
+            <h4>{{surf.textProduit}}</h4>
+            <p>
+              {{surf.descriptifProduit}}
+              {{surf.prixProduit | currency}}
+            </p>
+
+            <!--<p><a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a></p> -->
+          </div>
+        </div>
+      </div>
+
+
+    </div><!-- End row -->
+
+  </div><!-- End container -->
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/i18n/angular-locale_fr-fr.js"></script>
+<script type="text/javascript" src="base.js"></script>
+</body>
+</html>
