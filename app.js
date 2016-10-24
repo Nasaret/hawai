@@ -1,5 +1,3 @@
-(function(){
-  var app = angular.module('hawai', []);
 
   app.controller('produitController', function(){
     this.produit = dataProduit;
@@ -26,4 +24,4 @@
   descriptifProduit : "Plus gros que la vague",
   prixProduit : "500"
 }];
-})();
+
