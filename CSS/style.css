@@ -5,6 +5,37 @@ nav {
 	border: 1px solid #376A6B;
 }
 
+/*CSS Home*/
+.home_body{
+	margin-left:5%;
+	margin-right:5%;
 
+}
+
+.jumbotron, .text-center{
+	padding-top: 0;
+	margin-top:5%;
+}
+
+.surf_blabla{
+	position: relative;
+	margin: 0 auto;
+}
+
+.btn_home{
+	width: 150px;
+}
+
+.background{
+	margin: 0;
+	width:  90%;
+	position: absolute;
+	
+}
+
+.blabla1{
+	background-color: rgba(0, 0, 255, 0.5);
+	color: white;
+}
 
 /*CSS footer*/
