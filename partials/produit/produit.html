@@ -13,12 +13,13 @@
 <body ng-controller="produitController as store">
 
   <div class="container" id="tourpackages-carousel">
-
+ {{"hello"}}
     <div class="row">
+   
 
       <div class="col-xs-18 col-sm-6 col-md-3" ng-repeat=" surf in store.produit">
         <div class="thumbnail">
-          <img src="{{surf.photoProduit}} alt=""/>
+          <img src="{{surf.photoProduit}}" alt=""/>
           <div class="caption">
             <h4>{{surf.textProduit}}</h4>
             <p>
@@ -38,8 +39,8 @@
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js "></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/i18n/angular-locale_fr-fr.js"></script>
-<script type="text/javascript" src="base.js"></script>
+<script type="text/javascript" src="app.js"></script>
 </body>
 </html>
